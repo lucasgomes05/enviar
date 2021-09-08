@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Açucar",
+      "price": 10.85,
+      "peso": "5",
+      "medida": "gramas"
+    },
+    {
+      "name": "Teste",
+      "price": "50.00",
+      "medida": "Gramas",
+      "peso": "100",
+      "id": 4
+    },
+    {
+      "name": "Gelatina",
+      "price": "1.25",
+      "medida": "Gramas",
+      "peso": "50",
+      "id": 5
+    },
+    {
+      "name": "Teste Discord",
+      "price": "56",
+      "medida": "Kilos",
+      "peso": "100",
+      "id": 6
+    }
+  ],
+  "receita": [
+    {
+      "name": "Teste",
+      "produtos": [],
+      "qtdutilizado": "500",
+      "id": 1
+    },
+    {
+      "name": "Teste02",
+      "produtos": [],
+      "qtdutilizado": "500",
+      "id": 2
+    }
+  ]
+}

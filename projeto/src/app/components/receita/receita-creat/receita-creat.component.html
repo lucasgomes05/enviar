@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title>Nova Receita</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome da Receita" 
+            [(ngModel)]="receita.name" name="name">
+        </mat-form-field>
+    </form>
+    <form>
+        
+        <mat-form-field>
+            <input matInput placeholder="Quantidade Utilizada" 
+            [(ngModel)]="receita.qtdutilizado" name="qtdutilizado">
+        </mat-form-field>
+
+    </form>
+
+    <button mat-raised-button (click)="createReceita()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+
+</mat-card>
+
+
